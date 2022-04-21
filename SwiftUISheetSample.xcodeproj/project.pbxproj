@@ -14,6 +14,8 @@
 		FFC132C62811C55700BFAA11 /* SwiftUISheetSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC132C52811C55700BFAA11 /* SwiftUISheetSampleTests.swift */; };
 		FFC132D02811C55700BFAA11 /* SwiftUISheetSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC132CF2811C55700BFAA11 /* SwiftUISheetSampleUITests.swift */; };
 		FFC132D22811C55700BFAA11 /* SwiftUISheetSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC132D12811C55700BFAA11 /* SwiftUISheetSampleUITestsLaunchTests.swift */; };
+		FFC132DF2811C6C200BFAA11 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC132DE2811C6C200BFAA11 /* SecondView.swift */; };
+		FFC132E12811CC7D00BFAA11 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC132E02811CC7D00BFAA11 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FFC132CB2811C55700BFAA11 /* SwiftUISheetSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISheetSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC132CF2811C55700BFAA11 /* SwiftUISheetSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISheetSampleUITests.swift; sourceTree = "<group>"; };
 		FFC132D12811C55700BFAA11 /* SwiftUISheetSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISheetSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFC132DE2811C6C200BFAA11 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		FFC132E02811CC7D00BFAA11 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				FFC132B42811C55200BFAA11 /* SwiftUISheetSampleApp.swift */,
 				FFC132B62811C55200BFAA11 /* ContentView.swift */,
+				FFC132E02811CC7D00BFAA11 /* ButtonView.swift */,
+				FFC132DE2811C6C200BFAA11 /* SecondView.swift */,
 				FFC132B82811C55700BFAA11 /* Assets.xcassets */,
 				FFC132BA2811C55700BFAA11 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC132DF2811C6C200BFAA11 /* SecondView.swift in Sources */,
 				FFC132B72811C55200BFAA11 /* ContentView.swift in Sources */,
+				FFC132E12811CC7D00BFAA11 /* ButtonView.swift in Sources */,
 				FFC132B52811C55200BFAA11 /* SwiftUISheetSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
